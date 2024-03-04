@@ -43,6 +43,38 @@ public int BirdCountIncrement()
     
 }
 
+public void BirdCountHasDay()
+{
+
+   foreach (var item in _birdCount)
+   {
+    
+      if(item ==0)
+      {
+        System.Console.WriteLine(true);
+      }
+
+   }
+
+System.Console.WriteLine(false);
+}
+
+public void BirdCountFor()
+{
+
+   foreach (var item in _birdCount)
+   {
+    
+      if(item >=5)
+    
+    {
+     System.Console.WriteLine( _birdCount.Sum());
+    }
+
+   }
+
+
+}
 
 
 }
